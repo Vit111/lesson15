@@ -1,0 +1,174 @@
+// .btn {
+//     display: $display;
+//     font-size: $btn-font-size;
+//     line-height: $btn-line-height;
+//     font-weight: $semibold;
+//     margin: 25px 0 25px 260px;
+
+//     &_orange{
+//       width: 120px;
+//       height: 45px;
+//       background: #FF6336;
+//       text-align: center;
+//       margin: 0 10px 0 0;
+//       color: $white;
+
+//       & a{
+//         color: $white;
+
+//         &:hover{
+//           color: $blue;
+//         }
+//       }
+
+//       &_two{
+//         max-width: 153px;
+//         width: 100%;
+//         height: 60px;
+//         background: #FF6336;
+//         margin: 32px auto;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         color: white;
+
+//         & a{
+//           color: $white;
+
+//           &:hover{
+//             color: $blue;
+//           }
+//         }
+//       }
+//     }
+
+//     &_white{
+//       width: 120px;
+//       height: 45px;
+//       background: white;
+//       border: 1px solid grey;
+//       text-align: center;
+//       margin: 0 10px 0 0;
+
+//       & a{
+//         color: $black;
+
+//         &:hover{
+//           color: $blue;
+//         }
+//       }
+//     }
+
+//     &_black{
+//       width: 160px;
+//       height: 60px;
+//       background: #000000;
+//       margin: 54px 0 161px 0;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       color: white;
+
+.btn{
+  font-size: $btn-font-size;
+  line-height: $btn-line-height;
+  font-weight: $semibold;
+
+  >li{
+    padding: 0 10px;
+  }
+
+   &--button_list{
+    margin: 25px 0 25px 300px;
+    display: $display;
+    align-items: center;
+    
+    .white{
+      width: 120px;
+      height: 45px;
+      background: white;
+      border: 1px solid grey;
+      text-align: center;
+      padding: 14px 30px;
+    }
+
+    .orange{
+      width: 120px;
+      height: 45px;
+      background: #FF6336;
+      padding: 15px 20px;
+      color: white;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+   }
+
+   &--button_list_1{
+    display: $display;
+    margin: 0 0 20px 0;
+
+
+    .orange{
+      width: 120px;
+      height: 45px;
+      background: #FF6336;
+      padding: 15px 30px;
+      color: white;
+      text-decoration: none;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+
+    .white{
+      width: 120px;
+      height: 45px;
+      background: white;
+      border: 1px solid grey;
+      padding: 14px 10px;
+      text-decoration: none;
+    }
+   }
+
+   &--button_list_2{
+    display: $display;
+    justify-content: center;
+
+    .orange{
+      width: 120px;
+      height: 45px;
+      background: #FF6336;
+      padding: 20px 15px;
+      color: white;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+  } 
+
+    &--button_list_3{
+      display: $display;
+      justify-content: center;
+      margin: 20px 0 0 0;
+
+    .black{
+      width: 160px;
+      height: 60px;
+      background: $black;
+      padding: 20px 15px;
+      color: white;
+      display: $display;
+      justify-content: center;
+      align-items: center;
+
+      &:hover{
+        color: $blue;
+       }
+    }
+  }
+}
+
